@@ -52,7 +52,7 @@ for arquivo in arquivosDados:
                 pa = associado[1]
         try:
             PAS[pa] += pessoa[1]
-        except E:
+        except:
             pass
 
 print("...")

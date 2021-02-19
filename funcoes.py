@@ -14,7 +14,7 @@ def prepararPAS(associados, pa):
 def processaNome(nome):
     try:
         return re.sub("\d", "", nome).strip().upper()
-    except E:
+    except:
         return ""
 
     
